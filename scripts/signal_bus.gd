@@ -11,4 +11,7 @@ func _ready() -> void:
 func _on_item_collected(amount: int) -> void:
 	if total_items < max_keep:
 		total_items += amount
+
+func reset() -> void:
+	total_items = 0
  

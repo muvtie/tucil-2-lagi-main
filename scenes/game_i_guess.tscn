@@ -313,7 +313,6 @@ font_size = 94
 script/source = "extends Label
 
 @onready var vol = $\"../volslide\"
-
 "
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_na33v"]
